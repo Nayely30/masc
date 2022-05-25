@@ -1,0 +1,89 @@
+*{
+    padding: 2;
+    margin: 2;
+    box-sizing: border-box;
+}
+body{
+    background-color: #030303;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+h1{
+    background-color: #030303;
+    color: #fffefe;
+    text-align: center;
+    font-size: 60px;
+    font-family: 'Amatic SC', cursive;
+}
+h2{
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Amatic SC', cursive;
+}
+.imagen{
+    color: #ffffff;
+    font-size: 300%;
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+
+}
+.res{
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 55px;
+    font-family: 'Amatic SC', cursive;
+}
+.boton {
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 8%;
+    font-family: 'Amatic SC', cursive;
+}
+  
+.boton {
+    background-color: rgb(145, 112, 218); 
+    color: rgb(255, 255, 255); 
+}
+  
+.boton:hover {
+    background-color: #5a22d2;
+    color: white;
+}
+
+input[type="number"],
+textarea {
+  width: 9%;
+  padding: 20px;
+  border: 2px solid rgb(182, 179, 179);
+  border-radius: 4px;
+  resize: horizontal;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  }
+input[type="text"],
+textarea {
+  width: 20%;
+  padding: 20px;
+  border: 2px solid rgb(182, 179, 179);
+  border-radius: 4px;
+  resize: horizontal;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  }
+ 
+
+
